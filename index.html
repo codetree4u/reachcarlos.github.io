@@ -1,205 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Carlos R.</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        <a href="https://github.com/reachcarlos" class="link"
-          >CR.</a
-        >
-      </h3>
 
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
-          </li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Carlos R.</title>
+</head>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://github.com/reachcarlos" class="link">CR.</a>
+    </h3>
 
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
 
-    <main>
-      <!-- About -->
-      <div class="about center">
-        <h1>Hi, My name is <span class="about__name">Carlos Raymundo.</span></h1>
-        <h2 class="about__role">A Backend Operations Engineer.</h2>
-        <p class="about__desc">
-          I'm passionate about all things in crypto technologies, wallets, coins, tokens, NTFs and smart contracts.
-          On September 2021, I completed a Fintech program at UC Berkeley Extension where I learned to build on top of the Ethereum blockchain.
-          I have a solid working experience in the high-tech industry, but I became fascinated with crypto currencies, NFTs, and about the ways they are changing the financial industry. 
-          Below are some projects I have worked on.
-        </p>
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
 
-        <div class="about__contact center">
-            <a href="resources/carlos_raymundo.pdf">
-            <span class="btn btn--outline">Resume</span>
-          </a>
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
 
-          <a
-            href="https://github.com/reachcarlos"
-            aria-label="github"
-            class="link link--icon"
-          >
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, My name is <span class="about__name">Carlos Raymundo.</span></h1>
+      <h2 class="about__role">A Backend Operations Engineer.</h2>
+      <p class="about__desc">
+        I'm passionate about all things in crypto technologies, wallets, coins, tokens, NTFs and smart contracts.
+        On September 2021, I completed a Fintech program at UC Berkeley Extension where I learned to build on top of the
+        Ethereum blockchain.
+        I have a solid working experience in the high-tech industry, but I became fascinated with crypto currencies,
+        NFTs, and about the ways they are changing the financial industry.
+        Below are some projects I have worked on.
+      </p>
+
+      <div class="about__contact center">
+        <a href="resources/carlos_raymundo.pdf">
+          <span class="btn btn--outline">Resume</span>
+        </a>
+
+        <a href="https://github.com/reachcarlos" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/reachcarlos" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p class="project__description">
+            A fungible token ERC-20 compliant minted by using a Crowdsale contract from a OpenZeppelin Solidity library.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Solidity</li>
+            <li class="project__stack-item">Ethereum</li>
+            <li class="project__stack-item">Metamask</li>
+          </ul>
+
+          <a href="https://github.com/reachcarlos/KaseiCoinFungibleToken" aria-label="source code"
+            class="link link--icon">
             <i aria-hidden="true" class="fab fa-github"></i>
           </a>
 
-          <a
-            href="https://linkedin.com/in/reachcarlos"
-            aria-label="linkedin"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </div>
+
+        <div class="project">
+          <h3>Project 2</h3>
+          <p class="project__description">
+            NFT contract ERC-721 compliant with minting token and appraissing features.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Solidity</li>
+            <li class="project__stack-item">Streamlit</li>
+            <li class="project__stack-item">Metamask</li>
+          </ul>
+
+          <a href="https://github.com/reachcarlos/Project_3_seven_wonders_NFT" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
           </a>
+
+        </div>
+
+        <div class="project">
+          <h3>Project 3</h3>
+          <p class="project__description">
+            A smart contract running on the ethereum blockchain that allows two users to automatically create a joint
+            savings account.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Solidity</li>
+            <li class="project__stack-item">Ethereum</li>
+            <li class="project__stack-item">Metamask</li>
+          </ul>
+
+          <a href="https://github.com/reachcarlos/Solidity_JointSavingsAccount" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
         </div>
       </div>
+    </section>
 
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">Solidity</li>
+        <li class="skills__list-item btn btn--plain">Python</li>
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">AWS</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">SQL</li>
+        <li class="skills__list-item btn btn--plain">PANDAS</li>
+        <li class="skills__list-item btn btn--plain">MongoDB</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+        <li class="skills__list-item btn btn--plain">Conda</li>
+        <li class="skills__list-item btn btn--plain">JIRA</li>
+      </ul>
+    </section>
 
-        <div class="projects__grid">
-          <div class="project">
-            <h3>Project 1</h3>
-            <p class="project__description">
-              A fungible token that is ERC-20 compliant and is being minted by using a Crowdsale contract from the OpenZeppelin Solidity library.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Solidity</li>
-              <li class="project__stack-item">Ethereum</li>
-              <li class="project__stack-item">Metamask</li>
-            </ul>
-
-            <a
-              href="https://github.com/reachcarlos/KaseiCoinFungibleToken"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-
-          </div>
-
-          <div class="project">
-            <h3>Project 2</h3>
-            <p class="project__description">
-              A non-fungible token NFT that is ERC-721 compliant and it allows usrs to mint token and allow appraisers to change the value of the NFTs.
-              </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Solidity</li>
-              <li class="project__stack-item">Streamlit</li>
-              <li class="project__stack-item">Metamask</li>
-            </ul>
-
-            <a
-              href="https://github.com/reachcarlos/Project_3_seven_wonders_NFT"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-
-          </div>
-
-          <div class="project">
-            <h3>Project 3</h3>
-            <p class="project__description">
-              A smart contract running on the ethereum blockchain that allows two users to automatically create a joint savings account.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Solidity</li>
-              <li class="project__stack-item">Ethereum</li>
-              <li class="project__stack-item">Metamask</li>
-            </ul>
-
-            <a
-              href="https://github.com/reachcarlos/Solidity_JointSavingsAccount"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Solidity</li>
-          <li class="skills__list-item btn btn--plain">Python</li>
-          <li class="skills__list-item btn btn--plain">HTML</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">AWS</li>
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">SQL</li>
-          <li class="skills__list-item btn btn--plain">PANDAS</li>
-          <li class="skills__list-item btn btn--plain">MongoDB</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">Conda</li>
-          <li class="skills__list-item btn btn--plain">JIRA</li>
-        </ul>
-      </section>
-
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:reachcarlostoday@gmail.com">
-          <span class="btn btn--outline">Email me</span>
-        </a>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <a
-        href="https://github.com/reachcarlos/reachcarlos.github.io"
-        class="link footer__link"
-      >
-        Modified By Carlos Raymundo Located In Bay Area, Ca.
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:reachcarlostoday@gmail.com">
+        <span class="btn btn--outline">Email me</span>
       </a>
-    </footer>
+    </section>
+  </main>
 
-    <div class="scroll-top">
-      <a aria-label="Scroll up" href="#top">
-        <i aria-hidden="true" class="fas fa-arrow-up"></i>
-      </a>
-    </div>
+  <footer class="footer">
+    <a href="https://github.com/reachcarlos/reachcarlos.github.io" class="link footer__link">
+      Modified By Carlos Raymundo Located In Bay Area, Ca.
+    </a>
+  </footer>
 
-    <script src="./script.js"></script>
-  </body>
+  <div class="scroll-top">
+    <a aria-label="Scroll up" href="#top">
+      <i aria-hidden="true" class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
